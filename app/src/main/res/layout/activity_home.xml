@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="735dp"
+    android:background="@drawable/screen4"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tVWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Thease are your Details from your Our Database" />
+
+    <TextView
+        android:id="@+id/tVMail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="MAIL" />
+
+    <TextView
+        android:id="@+id/tVUniqueId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UniqueID"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Explore App"
+        android:id="@+id/explore"
+        android:backgroundTint="@color/teal_700"
+        />
+</LinearLayout>

@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="735dp"
+    android:background="@drawable/screen5"
+    android:orientation="vertical"
+    tools:context=".ExploreActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="4"
+            tools:context=".GridXMLActivity"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <Button
+                android:id="@+id/demo"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+
+                android:layout_gravity="center"
+
+                android:backgroundTint="@color/white"
+
+                android:text="Demo App"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/webView"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Web View"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/viewbinding"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="View Binding"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/intents"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Intents"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/scroll"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Scroll View"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/dark"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Theams"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/quiz"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Quiz App"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Login Design"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+        </GridLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "377029981218",
+    "firebase_url": "https://gprs-projects-default-rtdb.firebaseio.com",
+    "project_id": "gprs-projects",
+    "storage_bucket": "gprs-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377029981218:android:376569e51b1d9c558b467b",
+        "android_client_info": {
+          "package_name": "com.example.gprsprojects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377029981218-saidq0opo3uhmd9cur6g59fv69l02rsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gprsprojects",
+            "certificate_hash": "a962647a3bd6643e48f5d52ff70aac9592c25d53"
+          }
+        },
+        {
+          "client_id": "377029981218-l5ol885sf8o4dcnk39431blngabfc5aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4pNW82jilqp7IZsiq96n2L7WuKVyiLLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377029981218-80sv9nmie241bdc720q0f709p5d24641.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
